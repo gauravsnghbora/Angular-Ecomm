@@ -1,181 +1,603 @@
-{
-  "seller": [
-    {
-      "name": "sam sidhu",
-      "email": "sam@seller.com",
-      "password": "abc@123",
-      "id": 2
-    },
-    {
-      "name": "peter",
-      "password": "abc@123",
-      "email": "peter@test.com",
-      "id": 3
-    },
-    {
-      "name": "bruce",
-      "password": "abc@123",
-      "email": "bruce@test.com",
-      "id": 4
-    },
-    {
-      "name": "anil",
-      "password": "abc123",
-      "email": "anil@test.com",
-      "id": 5
-    },
-    {
-      "name": "alena",
-      "password": "abc123",
-      "email": "alena@test.com",
-      "id": 6
-    },
-    {
-      "name": "sam",
-      "password": "abc@123",
-      "email": "sam@test.com",
-      "id": 7
-    },
-    {
-      "name": "bhasker",
-      "password": "abc@123",
-      "email": "bhasker@test.com",
-      "id": 8
-    }
-  ],
-  "products": [
-    {
-      "name": "Samsung m 40 a ",
-      "price": "550",
-      "category": "mobile",
-      "color": "white",
-      "description": "this is a Samsung product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": 1
-    },
-    {
-      "name": "I phone 14",
-      "price": "100000",
-      "category": "mobile",
+{"products": [
+  {
+      "id": 1,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/h/y/g/34-jeans-bt008-laheja-original-imagqqbsfgmdhcvn.jpeg?q=70",
+      "brand": "LAHEJA",
+      "title": "Men Regular Mid Rise Black Jeans",
       "color": "black",
-      "description": "An Apple Product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": 2
-    },
-    {
-      "name": "HP Laptop",
-      "price": "50000",
-      "category": "Laptop",
+      "discountedPrice": 599,
+      "price": 1999,
+      "discountPercent": 70 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 2,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kmns7m80/jean/9/5/o/36-black-36-coper-buck-original-imagfg9edbsneu2s.jpeg?q=70",
+      "brand": "COPER BUCK",
+      "title": "Men Regular Mid Rise Black Jeans",
       "color": "black",
-      "description": "Hp laptop for student and professionals",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": 3
-    },
-    {
-      "name": "Nike Shoes",
-      "price": "3000",
-      "category": "Shoes",
-      "color": "Black",
-      "description": "Best shoes for Running",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "id": 4
-    },
-    {
-      "name": "Levies Jeans",
-      "price": "5000",
-      "category": "Jeans",
-      "color": "blue",
-      "description": "Confirmable jeans for man ",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": 5
-    },
-    {
-      "name": "Truck",
-      "price": "Toy",
-      "category": "Toys",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": 6
-    },
-    {
-      "name": "Noise Smart Watch",
-      "price": "2000",
-      "category": "Watch",
-      "color": "Black",
-      "description": "Noise smart watch for man and women both",
-      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
-      "id": 7
-    }
-  ],
-  "users": [
-    {
-      "name": "anil",
-      "email": "anil@user.com",
-      "password": "abc123",
-      "id": 1
-    },
-    {
-      "name": "peter",
-      "email": "peter@user.com",
-      "password": "abc123",
-      "id": 2
-    },
-    {
-      "name": "hyden",
-      "email": "hyden@user.com",
-      "password": "abc123",
-      "id": 3
-    },
-    {
-      "name": "tony",
-      "email": "tony@user.com",
-      "password": "abc123",
-      "id": 4
-    }
-  ],
-  "cart": [
-    {
-      "name": "Samsung m 40 a ",
-      "price": "550",
-      "category": "mobile",
-      "color": "white",
-      "description": "this is a Samsung product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "quantity": 1,
-      "productId": 1,
-      "userId": 3,
-      "id": 7
-    },
-    {
-      "name": "Levies Jeans",
-      "price": "5000",
-      "category": "Jeans",
-      "color": "blue",
-      "description": "Confirmable jeans for man ",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "quantity": 1,
-      "productId": 5,
-      "userId": 3,
-      "id": 8
-    }
-  ],
-  "orders": [
-    {
-      "email": "anil@user.com",
-      "address": "noida sector x",
-      "contact": "9999",
-      "totalPrice": 104750,
-      "userId": 1,
-      "id": 1
-    },
-    {
-      "email": "anil@test.com",
-      "address": "noida sector x",
-      "contact": "8877",
-      "totalPrice": 6100,
-      "userId": 1,
-      "id": 3
-    }
-  ]
-}
+      "discountedPrice": 898,
+      "price": 2399,
+      "discountPercent": 62 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 3,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/z/n/u/32-ecskn-01bb-002-spykar-original-imaghxqwuw67ywfy.jpeg?q=70",
+      "brand": "Spykar",
+      "title": "Men Skinny Low Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 1099,
+      "price": 2799,
+      "discountPercent": 62 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 4,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/a/w/t/30-ud0030-united-denim-original-imagf9n9efexz68u-bb.jpeg?q=70",
+      "brand": "UNITED DENIM",
+      "title": "Men Slim Mid Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 429,
+      "price": 1749,
+      "discountPercent": 75 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 5,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/ky0g58w0/shopsy-jean/8/p/y/28-black-knee-cut-jeans-comfits-original-imagaccjjya9gqzn.jpeg?q=70",
+      "brand": "comfits",
+      "title": "Men Slim Mid Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 399,
+      "price": 1299,
+      "discountPercent": 69 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 6,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kwfaj680/jean/3/c/s/38-hljn001891-highlander-original-imag93tpnjyyvpkg.jpeg?q=70",
+      "brand": "HIGHLANDER",
+      "title": "Men Tapered Fit Mid Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 701,
+      "price": 1799,
+      "discountPercent": 61 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 7,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/2/q/g/30-jeans-kneecut-black-crishtaliyo-2fashion-original-imagqy6gzmpwqkge.jpeg?q=70",
+      "brand": "Crishtaliyo 2fashion",
+      "title": "Men Slim Mid Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 494,
+      "price": 1799,
+      "discountPercent": 72 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 8,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/shopsy-jean/k/v/m/30-shopsy-black-30-coper-buck-original-imag57w8xmhgkhrf.jpeg?q=70",
+      "brand": "COPER BUCK",
+      "title": "Men Regular Mid Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 898,
+      "price": 2399,
+      "discountPercent": 62 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 9,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kfoapow0-0/jean/w/o/d/30-000877-highlander-original-imafw2hyqbj3bsph.jpeg?q=70",
+      "brand": "HIGHLANDER",
+      "title": "Men Tapered Fit Mid Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 610,
+      "price": 1299,
+      "discountPercent": 53 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+      "id": 10,
+      "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/r/a/b/38-eps-black-03-urbano-fashion-original-imaghkgk27whjcej.jpeg?q=70",
+      "brand": "Urbano Fashion",
+      "title": "Men Slim Mid Rise Black Jeans",
+      "color": "black",
+      "discountedPrice": 699,
+      "price": 1399,
+      "discountPercent": 50 ,
+      "size": [
+          {
+            "name": "S",
+            "quantity": 20
+          },
+          {
+            "name": "M",
+            "quantity": 30
+          },
+          {
+            "name": "L",
+            "quantity": 50
+          }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "Men",
+        "secondLavelCategory": "Clothing",
+        "thirdLavelCategory": "men_jeans",
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+  },
+  {
+    "id": 41,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/l0wrafk0/dress/l/2/o/3xl-m2s13003-peach-madame-original-imagchhhwbypcann.jpeg?q=70",
+    "brand": "MADAME",
+    "title": "Women Asymmetric Pink Dress",
+    "color": "Pink",
+    "discountedPrice": 1299,
+    "price": 2499,
+    "discountPercent": 50,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 42,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/1/h/g/m-pw333-purshottam-wala-original-imag8zf6ybkmhehy-bb.jpeg?q=70",
+    "brand": "Daevish",
+    "title": "Women Maxi Blue Dress",
+    "color": "Blue",
+    "discountedPrice": 341,
+    "price": 1899,
+    "discountPercent": 82,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 43,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/z/s/i/s-a1-zwerlon-original-imagn9uycxbhshur.jpeg?q=70",
+    "brand": "ZWERLON",
+    "title": "Women A-line Purple Dress",
+    "color": "Purple",
+    "discountedPrice": 499,
+    "price": 1999,
+    "discountPercent": 75,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 44,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/q/7/v/s-pwd322-purshottam-wala-original-imagm7ypaavduvnm.jpeg?q=70",
+    "brand": "Purshottam Wala",
+    "title": "Women Fit and Flare Black Dress",
+    "color": "Black",
+    "discountedPrice": 359,
+    "price": 2099,
+    "discountPercent": 82,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  
+  {
+    "id": 45,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/e/a/p/s-pwd322-purshottam-wala-original-imagm6ywr7vz95sz.jpeg?q=70",
+    "brand": "Purshottam Wala",
+    "title": "Women Fit and Flare Blue Dress",
+    "color": "Blue",
+    "discountedPrice": 359,
+    "price": 2099,
+    "discountPercent": 82,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 46,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/kdlzte80/ethnic-set/p/f/q/l-3209-mint-02-neysa-original-imafuh85unfjczkd.jpeg?q=70",
+    "brand": "NEYSA",
+    "title": "Women Two Piece Dress Light Green Dress",
+    "color": "Light Green",
+    "discountedPrice": 827,
+    "price": 1799,
+    "discountPercent": 54,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 47,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/l0igvww0/dress/g/p/u/xl-wd-1001-leriya-fashion-original-imagc9zbhfhsy33w.jpeg?q=70",
+    "brand": "Leriya Fashion",
+    "title": "Women A-line Maroon Dress",
+    "color": "Maroon",
+    "discountedPrice": 351,
+    "price": 1599,
+    "discountPercent": 78,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 48,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/l2hwwi80/dress/6/q/q/l-310tk6042-selvia-original-imagdtyyqfy7ahwf.jpeg?q=70",
+    "brand": "Selvia",
+    "title": "Women A-line Black Dress",
+    "color": "Black",
+    "discountedPrice": 499,
+    "price": 2497,
+    "discountPercent": 80,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 49,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/a/c/m/l-3261-buynewtrend-original-imagnrpdhdeke5be.jpeg?q=70",
+    "brand": "BuyNewTrend",
+    "title": "Women Sheath Dark Blue Dress",
+    "color": "Blue",
+    "discountedPrice": 449,
+    "price": 1499,
+    "discountPercent": 70,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  },
+  {
+    "id": 50,
+    "imageUrl":
+      "https://rukminim1.flixcart.com/image/612/612/kuyf8nk0/dress/x/4/c/s-21auw15994-116106-w-original-imag7ymmr5gggzzg.jpeg?q=70",
+    "brand": "W",
+    "title": "Women A-line Green, White Dress",
+    "color": "Light Green",
+    "discountedPrice": 719,
+    "price": 1999,
+    "discountPercent": 64,
+    "size": [
+      {
+        "name": "S",
+        "quantity": 20
+      },
+      {
+        "name": "M",
+        "quantity": 30
+      },
+      {
+        "name": "L",
+        "quantity": 50
+      }
+    ],
+    "quantity": 100,
+    "topLevelCategory": "Women",
+    "secondLavelCategory": "Clothing",
+    "thirdLavelCategory": "Dress",
+    "description":
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+  }
+]}

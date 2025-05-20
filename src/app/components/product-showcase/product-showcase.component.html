@@ -1,0 +1,10 @@
+<div *ngIf="product$ | async as product" class="product-showcase-container">
+  <img [src]="product.imageUrl" alt="{{ product.title }}" />
+  <h1>{{ product.title }}</h1>
+  <p>{{ product.description }}</p>
+  <p>Price: {{ product.price | currency:'INR' }}</p>
+  <p>Discounted Price: {{ product.discountedPrice | currency:'INR' }}</p>
+  <p>Color: {{ product.color }}</p>
+  <p>Category: {{ product.topLevelCategory }}</p>
+  <button mat-raised-button color="primary">Add to Cart</button>
+</div>

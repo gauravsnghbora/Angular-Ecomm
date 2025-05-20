@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Red T-Shirt",
+    "category": "Clothing",
+    "cost": 20,
+    "discount": 5,
+    "color": "Red",
+    "images": ["assets/images/red-tshirt.jpg"]
+  },
+  {
+    "id": 2,
+    "name": "Blue Jeans",
+    "category": "Clothing",
+    "cost": 40,
+    "discount": 10,
+    "color": "Blue",
+    "images": ["assets/images/blue-jeans.jpg"]
+  },
+  {
+    "id": 3,
+    "name": "Green Jacket",
+    "category": "Clothing",
+    "cost": 60,
+    "discount": 15,
+    "color": "Green",
+    "images": ["assets/images/green-jacket.jpg"]
+  }
+]

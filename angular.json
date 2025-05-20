@@ -3,9 +3,16 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ecomm-project": {
+    "rimssApp": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,18 +20,19 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ecomm-project",
+            "outputPath": "dist/rimssApp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -65,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ecomm-project:build:production"
+              "browserTarget": "rimssApp:build:production"
             },
             "development": {
-              "browserTarget": "ecomm-project:build:development"
+              "browserTarget": "rimssApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ecomm-project:build"
+            "browserTarget": "rimssApp:build"
           }
         },
         "test": {
@@ -86,17 +94,20 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "src/styles.scss"
             ],
             "scripts": []
           }
         }
       }
     }
-  }
+  },
+  "defaultProject": "rimssApp"
 }
