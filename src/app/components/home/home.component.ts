@@ -21,8 +21,7 @@ export class HomeComponent implements OnInit {
   discountPercent: number | null = null;
   maxPrice: number | null = null;
 
-  constructor(private store: Store, private router: Router) {
-  }
+  constructor(private store: Store, private router: Router) {}
 
   ngOnInit() {
     this.store.dispatch(loadProducts());

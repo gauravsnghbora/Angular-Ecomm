@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+
+  .site-icon {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+
+    .favicon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .nav-left {
+    display: flex;
+    gap: 15px; /* Add spacing between buttons */
+    margin-left: 15px; /* Add padding after the site icon */
+  }
+
+  .nav-right {
+    margin-left: auto; /* Push to the extreme right */
+  }
+
+  nav button {
+    margin: 0;
+    padding: 5px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  nav button:hover {
+    background-color: #0056b3;
+  }
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 97%;
+  z-index: 1050; // Increased z-index to ensure it stays above other elements
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .fixed-header {
+    width: 94%; // Adjust width for small devices
+  }
+}

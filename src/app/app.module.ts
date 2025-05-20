@@ -10,6 +10,7 @@ import { ProductEffects } from './store/effects/product.effects';
 import { HomeComponent } from './components/home/home.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { PaymentComponent } from './components/payment/payment.component';
+import { HeaderComponent } from './components/header/header.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,7 +32,8 @@ import { ProductShowcaseComponent } from './components/product-showcase/product-
     HomeComponent,
     ShoppingCartComponent,
     PaymentComponent,
-    ProductShowcaseComponent
+    ProductShowcaseComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

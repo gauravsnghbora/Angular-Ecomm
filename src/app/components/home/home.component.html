@@ -1,65 +1,62 @@
-<div class="home-container">
-  <h1>Welcome to Our Retail Store</h1>
+<div class="home-content">
+  <div class="home-container">
+    <h1>Welcome to Our Retail Store</h1>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Search products</mat-label>
+      <input matInput [(ngModel)]="searchTerm" (input)="onSearch()" placeholder="Search products by title">
+    </mat-form-field>
   
-  <mat-form-field appearance="fill">
-    <mat-label>Search products</mat-label>
-    <input matInput [(ngModel)]="searchTerm" (input)="onSearch()" placeholder="Search products by title">
-  </mat-form-field>
-
-  <mat-form-field appearance="fill">
-    <mat-label>Category</mat-label>
-    <mat-select [(ngModel)]="selectedCategory" (selectionChange)="onSearch()">
-      <mat-option value="">All Categories</mat-option>
-      <mat-option value="Men">Men</mat-option>
-      <mat-option value="Women">Women</mat-option>
-    </mat-select>
-  </mat-form-field>
-
-  <mat-form-field appearance="fill">
-    <mat-label>Color</mat-label>
-    <mat-select [(ngModel)]="selectedColor" (selectionChange)="onSearch()">
-      <mat-option value="">Filter by color</mat-option>
-      <mat-option value="Black">Black</mat-option>
-      <mat-option value="Blue">Blue</mat-option>
-      <mat-option value="Light Green">Light Green</mat-option>
-      <mat-option value="Maroon">Maroon</mat-option>
-      <mat-option value="Purple">Purple</mat-option>
-      <mat-option value="Pink">Pink</mat-option> 
-      <mat-option value="White">White</mat-option>
-      <mat-option value="Yellow">Yellow</mat-option>
-    </mat-select>
-  </mat-form-field>
-
-  <mat-form-field appearance="fill">
-    <mat-label>Discount Percent</mat-label>
-    <mat-select [(ngModel)]="discountPercent" (selectionChange)="onSearch()">
-      <mat-option value="">Minimum discount percent</mat-option>
-      <mat-option value="30">30% and above</mat-option>
-      <mat-option value="50">50% and above</mat-option>
-      <mat-option value="70">70% and above</mat-option>
-    </mat-select>
-  </mat-form-field>
-
-  <mat-form-field appearance="fill">
-    <mat-label>Price</mat-label>
-    <input matInput type="number" [(ngModel)]="maxPrice" (input)="onSearch()" placeholder="Maximum price">
-  </mat-form-field>
-
-  <button mat-raised-button color="primary" routerLink="/cart" class="cart-button">
-    Go to Shopping Cart
-  </button>
-
-  <h2>Featured Products</h2>
-  <div class="product-grid">
-    <mat-card *ngFor="let product of products$ | async" class="product-card" (click)="viewProduct(product.id)">
-      <img mat-card-image [src]="product.imageUrl" alt="{{ product.title }}" />
-      <mat-card-title>{{ product.title }}</mat-card-title>
-      <mat-card-content>
-        <p>Price: {{ product.price | currency:'INR'}}</p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button (click)="addToCart(product); $event.stopPropagation()">Add to Cart</button>
-      </mat-card-actions>
-    </mat-card>
+    <mat-form-field appearance="fill">
+      <mat-label>Category</mat-label>
+      <mat-select [(ngModel)]="selectedCategory" (selectionChange)="onSearch()">
+        <mat-option value="">All Categories</mat-option>
+        <mat-option value="Men">Men</mat-option>
+        <mat-option value="Women">Women</mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Color</mat-label>
+      <mat-select [(ngModel)]="selectedColor" (selectionChange)="onSearch()">
+        <mat-option value="">Filter by color</mat-option>
+        <mat-option value="Black">Black</mat-option>
+        <mat-option value="Blue">Blue</mat-option>
+        <mat-option value="Light Green">Light Green</mat-option>
+        <mat-option value="Maroon">Maroon</mat-option>
+        <mat-option value="Purple">Purple</mat-option>
+        <mat-option value="Pink">Pink</mat-option> 
+        <mat-option value="White">White</mat-option>
+        <mat-option value="Yellow">Yellow</mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Discount Percent</mat-label>
+      <mat-select [(ngModel)]="discountPercent" (selectionChange)="onSearch()">
+        <mat-option value="">Minimum discount percent</mat-option>
+        <mat-option value="30">30% and above</mat-option>
+        <mat-option value="50">50% and above</mat-option>
+        <mat-option value="70">70% and above</mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Price</mat-label>
+      <input matInput type="number" [(ngModel)]="maxPrice" (input)="onSearch()" placeholder="Maximum price">
+    </mat-form-field>
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <mat-card *ngFor="let product of products$ | async" class="product-card" (click)="viewProduct(product.id)">
+        <img mat-card-image [src]="product.imageUrl" alt="{{ product.title }}" />
+        <mat-card-title>{{ product.title }}</mat-card-title>
+        <mat-card-content>
+          <p>Price: {{ product.price | currency:'INR'}}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="addToCart(product); $event.stopPropagation()">Add to Cart</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
   </div>
 </div>
