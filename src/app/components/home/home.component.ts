@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  products$: Observable<Product[]> = of([]); // Provide a default value of an empty observable
+  products$!: Observable<Product[]>; 
   products: Product[] = [];
   searchTerm: string = '';
   selectedCategory: string = '';

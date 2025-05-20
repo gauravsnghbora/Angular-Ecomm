@@ -54,5 +54,8 @@ export const selectFilteredProducts = (
 // Selector to get a product by ID
 export const selectProductById = (productId: number) => createSelector(
   selectAllProducts,
-  (products: Product[]) => products.find(product => product.id === productId)
+  (products: Product[]) => {
+    console.log(products); // Debugger added to inspect the value of productId and products
+    return products.find((product: Product) => product.id == productId);
+  }
 );

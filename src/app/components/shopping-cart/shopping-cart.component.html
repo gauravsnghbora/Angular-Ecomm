@@ -4,7 +4,7 @@
     <!-- Product Name Column -->
     <ng-container matColumnDef="name">
       <mat-header-cell *matHeaderCellDef> Product Name </mat-header-cell>
-      <mat-cell *matCellDef="let product"> {{ product.name }} </mat-cell>
+      <mat-cell *matCellDef="let product"> {{ product.title }} </mat-cell>
     </ng-container>
 
     <!-- Quantity Column -->
@@ -16,13 +16,13 @@
     <!-- Price Column -->
     <ng-container matColumnDef="price">
       <mat-header-cell *matHeaderCellDef> Price </mat-header-cell>
-      <mat-cell *matCellDef="let product"> {{ product.price | currency }} </mat-cell>
+      <mat-cell *matCellDef="let product"> {{ product.price | currency:'INR' }} </mat-cell>
     </ng-container>
 
     <!-- Total Column -->
     <ng-container matColumnDef="total">
       <mat-header-cell *matHeaderCellDef> Total </mat-header-cell>
-      <mat-cell *matCellDef="let product"> {{ product.quantity * product.price | currency }} </mat-cell>
+      <mat-cell *matCellDef="let product"> {{ product.quantity * product.price | currency:'INR' }} </mat-cell>
     </ng-container>
 
     <!-- Remove Column -->

@@ -1,10 +1,17 @@
-<div *ngIf="product$ | async as product" class="product-showcase-container">
-  <img [src]="product.imageUrl" alt="{{ product.title }}" />
-  <h1>{{ product.title }}</h1>
-  <p>{{ product.description }}</p>
-  <p>Price: {{ product.price | currency:'INR' }}</p>
-  <p>Discounted Price: {{ product.discountedPrice | currency:'INR' }}</p>
-  <p>Color: {{ product.color }}</p>
-  <p>Category: {{ product.topLevelCategory }}</p>
-  <button mat-raised-button color="primary">Add to Cart</button>
+<div *ngIf="product$ | async as product; else loading" class="product-showcase-container">
+  <img [src]="product.imageUrl" [alt]="product.title" />
+  <div class="product-details">
+    <h1>{{ product.title }}</h1>
+    <p>{{ product.description }}</p>
+    <p><strong>Price:</strong> {{ product.price | currency:'INR' }}</p>
+    <p><strong>Discounted Price:</strong> {{ product.discountedPrice | currency:'INR' }}</p>
+    <p><strong>Color:</strong> {{ product.color }}</p>
+    <p><strong>Category:</strong> {{ product.topLevelCategory }}</p>
+    <button mat-raised-button color="primary" class="add-to-cart-button" (click)="addToCart(product)">Add to Cart</button>
+  </div>
 </div>
+
+<ng-template #loading>
+  <p>Loading product details...</p>
+</ng-template>
+
