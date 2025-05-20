@@ -18,4 +18,5 @@ export interface Product {
   secondLevelCategory: string;  // Second level category (e.g., "Clothing")
   thirdLevelCategory: string;   // Third level category (e.g., "men_jeans")
   description: string;         // Description of the product
+  featured: boolean;          // Whether the product is featured
 }

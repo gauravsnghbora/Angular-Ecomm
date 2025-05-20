@@ -3,7 +3,7 @@ import { Store } from '@ngrx/store';
 import { Observable, of } from 'rxjs';
 import { loadProducts, addToCart } from '../../store/actions/product.actions';
 import { Product } from '../../models/product.model';
-import { selectAllProducts, selectFilteredProducts } from '../../store/selectors/product.selectors';
+import { selectAllProducts, selectFeaturedProducts, selectFilteredProducts } from '../../store/selectors/product.selectors';
 import { MatSelectChange } from '@angular/material/select';
 import { Router } from '@angular/router';
 
@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.store.dispatch(loadProducts());
-    this.products$ = this.store.select(selectAllProducts);
+    this.products$ = this.store.select(selectFeaturedProducts);
     this.products$.subscribe((results: Product[])=> this.products = results);
   }
 

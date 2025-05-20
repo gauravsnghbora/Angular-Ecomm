@@ -26,7 +26,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": true
   },
   {
       "id": 2,
@@ -55,7 +56,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": false
   },
   {
       "id": 3,
@@ -84,7 +86,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": true
   },
   {
       "id": 4,
@@ -113,7 +116,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": false
   },
   {
       "id": 5,
@@ -142,7 +146,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": true
   },
   {
       "id": 6,
@@ -171,7 +176,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": false
   },
   {
       "id": 7,
@@ -200,7 +206,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": true
   },
   {
       "id": 8,
@@ -229,7 +236,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": false
   },
   {
       "id": 9,
@@ -258,7 +266,8 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": true
   },
   {
       "id": 10,
@@ -287,7 +296,908 @@
         "topLevelCategory": "Men",
         "secondLavelCategory": "Clothing",
         "thirdLavelCategory": "men_jeans",
-        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+        "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+        "featured": false
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/k4d27ww0/shirt/q/w/t/l-el024-el-senor-original-imafnadnjp5pq6tg.jpeg?q=70",
+    "brand": "El Senor",
+    "title": "Men Regular Fit Solid Cut Away Collar Formal Shirt",
+    "color": "white",
+    "discountedPrice": 299,
+    "price": 1299,
+    "discountPersent": 76,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "shirt",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/f/z/l/m-white-formal-youthfirst-original-imagqjdfgwjfwgsb.jpeg?q=70",
+    "brand": "youth first",
+    "title": "Men Regular Fit Solid Curved Collar Formal Shirt",
+    "color": "white",
+    "discountedPrice": 299,
+    "price": 899,
+    "discountPersent": 66,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "shirt",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/i/a/z/4xl-white-vtexx-original-imagnzecssjs3y9g.jpeg?q=70",
+    "brand": "VTEXX",
+    "title": "Men Regular Fit Solid Cut Away Collar Formal Shirt",
+    "color": "white",
+    "discountedPrice": 299,
+    "price": 1299,
+    "discountPersent": 76,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "shirt",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/j/x/v/-original-imaghrnsfvbhrsny.jpeg?q=70",
+    "brand": "PETER ENGLAND",
+    "title": "Men Regular Fit Checkered Spread Collar Formal Shirt",
+    "color": "white",
+    "discountedPrice": 879,
+    "price": 1599,
+    "discountPersent": 45,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "shirt",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/7/k/2/xl-kcsh-fo-1647-ma-fubar-original-imaghehzpwgjzg2y.jpeg?q=70",
+    "brand": "FUBAR",
+    "title": "Men Slim Fit Solid Spread Collar Formal Shirt",
+    "color": "white",
+    "discountedPrice": 419,
+    "price": 1648,
+    "discountPersent": 74,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "shirt",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 16,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kb1470w0/jean/x/r/a/30-11274626-roadster-original-imafsgsthk6gdpjg.jpeg?q=70",
+    "brand": "Roadster",
+    "title": "Men Regular Mid Rise Blue Jeans",
+    "color": "blue",
+    "discountedPrice": 591,
+    "price": 1159,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "Pant",
+      "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
+      "discountPercent": 63,
+      "featured": false
+  },
+  {
+    "id": 17,	
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/v/c/n/30-586035-v-mart-original-imagmh7fzah3r2jj.jpeg?q=70",
+    "brand": "V-MART",
+    "title": "Men Slim Mid Rise Grey Jeans",
+    "color": "Grey",
+    "discountedPrice": 398,
+    "price": 3999,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "Pant",
+      "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
+      "discountPercent":49,
+      "featured": true
+  },
+  {
+    "id": 18,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/1/4/v/-original-imaggjcyhzz4myqh.jpeg?q=70",
+    "brand": "KILLER",
+    "title": "Men Slim Mid Rise Dark Blue Jeans",
+    "color": "Blue",
+    "discountedPrice": 959,
+    "price": 319,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "Pant",
+      "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
+      "discountPercent": 70,
+      "featured": false
+  },
+  { 
+    "id": 19,	
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/jean/n/u/3/bmw-darklevis-ben-martin-32-original-imaedpc4zcgjadsv.jpeg?q=70",
+    "brand": "BEN MARTIN",
+    "title": "Men Regular Mid Rise Dark Blue Jeans",
+    "color": "Blue",
+    "discountedPrice": 499,
+    "price": 1399,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "Pant",
+      "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
+      "discountPercent": 64,
+      "featured": true
+  },
+  {
+    "id": 20,	
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/r/g/f/32-18298-1258-levi-s-original-imaggz3fnw5cdphp.jpeg?q=70",
+    "brand": "LEVI'S",
+    "title": "511 Men Slim Mid Rise Blue Jeans",
+    "color": "Blue",
+    "discountedPrice": 1499,
+    "price": 3199,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "Pant",
+      "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
+      "discountPercent": 55,
+      "featured": false
+  },
+  {
+    "id": 21,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/i/l/0/-original-imagzhdnczq6gfrg.jpeg?q=70",
+    "brand": "BEING HUMAN",
+    "title": "Men Slim Mid Rise Black Jeans",
+    "color": "Black",
+    "discountedPrice": 899,
+    "price": 2999,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Men",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "Pant",
+      "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
+      "discountPercent": 70,
+      "featured": true
+  },
+  {
+    "id": 22,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/top/8/t/m/xxl-amrcrochetlacetop-madstitches-apparels-private-limited-original-imagr39r3kfmb5vy.jpeg?q=70",
+    "brand": "Madstitches Apparels Private Limited",
+    "title": "Party Regular Sleeves Floral Print, Printed Women White...",
+    "color": "white",
+    "discountedPrice": 449,
+    "price": 2500,
+    "discountPersent": 80,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "top",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 23,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kflftzk0/top/q/t/m/l-aw-2081w-aelomart-original-imafwyzhw8t2npsk.jpeg?q=70",
+    "brand": "Aelomart",
+    "title": "Casual Regular Sleeves Solid Women White Top",
+    "color": "white",
+    "discountedPrice": 499,
+    "price": 1599,
+    "discountPersent": 60,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "top",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 24,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/ke1pnrk0/top/p/p/z/xl-tttp003846-tokyo-talkies-original-imafutjsuhhacuev.jpeg?q=70",
+    "brand": "Tokyo Talkies",
+    "title": "Casual Regular Sleeves Solid Women White Top",
+    "color": "white",
+    "discountedPrice": 419,
+    "price": 1049,
+    "discountPersent": 60,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "top",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 25,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/1/d/2/s-3813-the-dry-state-original-imagcfh833gdjeem-bb.jpeg?q=70",
+    "brand": "THE DRY STATE",
+    "title": "Women Printed Round Neck Pure Cotton White T-Shirt",
+    "color": "white",
+    "discountedPrice": 399,
+    "price": 1399,
+    "discountPersent": 70,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "top",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 26,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/ky1vl3k0/t-shirt/f/u/6/m-2co-w-regular-must-blk-young-trendz-original-imagadhfgte57e67.jpeg?q=70",
+    "brand": "Young trendz",
+    "title": "Pack of 2 Women Solid Round Neck Pure Cotton White, Bla...",
+    "color": "white",
+    "discountedPrice": 354,
+    "price": 2069,
+    "discountPersent": 80,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "top",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 27,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kggviq80-0/jean/d/j/v/30-xj-37-gry-30-zxn-clothing-original-imafwp9gnqtwwebg.jpeg?q=70",
+    "brand": "A C CREATION",
+    "title": "Women Slim Mid Rise Grey Jeans",
+    "color": "gray",
+    "discountedPrice": 474,
+    "price": 1399,
+    "discountPersent": 66 ,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_jeans",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 28,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/p/z/m/38-wjn-1205n-gy-glossia-original-imagmf7kcq7gyj23.jpeg?q=70",
+    "brand": "Crazeis",
+    "title": "Women Boyfriend High Rise Grey Jeans",
+    "color": "gray",
+    "discountedPrice": 899,
+    "price": 1699,
+    "discountPersent": 47 ,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_jeans",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 29,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/d/6/z/28-women-single-jeans-tyffyn-original-imag5c6fwqfyjerg-bb.jpeg?q=70",
+    "brand": "TYFFYN",
+    "title": "Women Slim Mid Rise Grey Jeans",
+    "color": "gray",
+    "discountedPrice": 499,
+    "price": 1499,
+    "discountPersent": 66 ,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_jeans",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 30,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/a/d/p/m-kttladiesjeans916-kotty-original-imagajtbhqsckbhr-bb.jpeg?q=70",
+    "brand": "KOTTY",
+    "title": "Women Regular High Rise Grey Jeans",
+    "color": "gray",
+    "discountedPrice": 629,
+    "price": 1999,
+    "discountPersent": 68 ,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_jeans",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 31,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kflftzk0-0/jean/d/m/x/28-3button-grey-embdz-tyffyn-original-imafwyffaauagzf4.jpeg?q=70",
+    "brand": "TYFFYN",
+    "title": "Women Slim Mid Rise Grey Jeans",
+    "color": "gray",
+    "discountedPrice": 499,
+    "price": 1499,
+    "discountPersent": 66 ,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_jeans",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 32,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kerfl3k0hlty2aw-0/jean/l/s/a/28-1-ttjn001632-tokyo-talkies-original-imafvekyzvsna2ac.jpeg?q=70",
+    "brand": "Tokyo Talkies",
+    "title": "Women Super Skinny Mid Rise Grey Jeans",
+    "color": "gray",
+    "discountedPrice": 577,
+    "price": 1899,
+    "discountPersent": 69 ,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_jeans",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 33,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/e/y/n/30-women-fitted-jeans-urban-a-line-original-imagqzfzgvyb6zrx.jpeg?q=70",
+    "brand": "URBAN A-LINE",
+    "title": "Women Slim Mid Rise Grey Jeans",
+    "color": "gray",
+    "discountedPrice": 479,
+    "price": 1299,
+    "discountPersent": 63 ,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_jeans",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 34,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/a/x/z/l-na-awd-19-yellow-aarvia-original-imagzffm3bkyzup2.jpeg?q=70",
+    "brand": "Aarvia",
+    "title": "Women Bodycon Yellow Dress",
+    "color": "yellow",
+    "discountedPrice": 699,
+    "price": 1999,
+    "discountPersent": 65,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_dress",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 35,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/h/m/h/xl-na-awd-23-yellow-aarvia-original-imagzfs6ykq3z7jw.jpeg?q=70",
+    "brand": "Aarvia",
+    "title": "Women Bodycon Yellow Dress",
+    "color": "yellow",
+    "discountedPrice": 699,
+    "price": 1999,
+    "discountPersent": 65,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_dress",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 36,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/h/l/3/xxl-6101-sheetal-associates-original-imagmnemtrdhgrnc.jpeg?q=70",
+    "brand": "Sheetal Associates",
+    "title": "Women Fit and Flare Yellow, White, Green Dress",
+    "color": "yellow",
+    "discountedPrice": 459,
+    "price": 1999,
+    "discountPersent": 77,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_dress",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 37,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kt0enww0/dress/2/d/p/xxl-1091-sheetal-associates-original-imag6g4n7qhwesad.jpeg?q=70",
+    "brand": "Sheetal Associates",
+    "title": "Women Fit and Flare Yellow Dress",
+    "color": "yellow",
+    "discountedPrice": 459,
+    "price": 1999,
+    "discountPersent": 77,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_dress",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 38,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/f/z/y/l-aa-00153-yellow-aayu-original-imagz848vwz3hsgm.jpeg?q=70",
+    "brand": "AAYU",
+    "title": "Women A-line Yellow Dress",
+    "color": "yellow",
+    "discountedPrice": 420,
+    "price": 1499,
+    "discountPersent": 71,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_dress",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
+  },
+  {
+    "id": 39,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/l51d30w0/dress/h/a/w/xl-j0433-dr-janasya-original-imagfsu9ghjsjhgz.jpeg?q=70",
+    "brand": "Janasya",
+    "title": "Women Fit and Flare Yellow Dress",
+    "color": "yellow",
+    "discountedPrice": 902,
+    "price": 2689,
+    "discountPersent": 66,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_dress",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": true
+  },
+  {
+    "id": 40,
+    "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/3/9/c/m-552-sanwariya-creation-original-imagqsmykwmkg9yr.jpeg?q=70",
+    "brand": "SHRI RADHA RANI CREATIONS",
+    "title": "Women A-line Yellow Dress",
+    "color": "yellow",
+    "discountedPrice": 549,
+    "price": 2999,
+    "discountPersent": 81,
+    "size": [
+        {
+          "name": "S",
+          "quantity": 20
+        },
+        {
+          "name": "M",
+          "quantity": 30
+        },
+        {
+          "name": "L",
+          "quantity": 50
+        }
+      ],
+      "quantity": 100,
+      "topLavelCategory": "Women",
+      "secondLavelCategory": "Clothing",
+      "thirdLavelCategory": "women_dress",
+      "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
+      "featured": false
   },
   {
     "id": 41,
@@ -318,7 +1228,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": true
   },
   {
     "id": 42,
@@ -349,7 +1260,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": false
   },
   {
     "id": 43,
@@ -380,7 +1292,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": true
   },
   {
     "id": 44,
@@ -411,7 +1324,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": false
   },
   
   {
@@ -443,7 +1357,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": true
   },
   {
     "id": 46,
@@ -474,7 +1389,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": false
   },
   {
     "id": 47,
@@ -505,7 +1421,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": true
   },
   {
     "id": 48,
@@ -536,7 +1453,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": false
   },
   {
     "id": 49,
@@ -567,7 +1485,8 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": true
   },
   {
     "id": 50,
@@ -598,6 +1517,7 @@
     "secondLavelCategory": "Clothing",
     "thirdLavelCategory": "Dress",
     "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
+      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
+    "featured": false
   }
 ]}

@@ -28,6 +28,10 @@ export const selectError = createSelector(
   selectProductState,
   (state: ProductState) => state.error
 );
+export const selectFeaturedProducts = createSelector(
+  selectProductState,
+  (state: ProductState) =>  state.products.filter((product: Product) => product.featured)
+);
 
 // Selector to get filtered products by search term, category, color, discount percent, and price
 export const selectFilteredProducts = (
@@ -50,6 +54,12 @@ export const selectFilteredProducts = (
     });
   }
 );
+
+// export const selectFeaturedProducts = () => createSelector(
+//   selectAllProducts,
+//   (products: Product[]) => { return products.filter((product: Product) => product.featured)}
+// );
+
 
 // Selector to get a product by ID
 export const selectProductById = (productId: number) => createSelector(
