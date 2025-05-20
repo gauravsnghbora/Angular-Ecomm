@@ -1,6 +1,7 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
 import { ProductState } from '../reducers/product.reducer';
 import { Product } from '../../models/product.model';
+import { FilterCriteria } from '../../models/filter-criteria.model';
 
 // Create a feature selector for the product state
 const selectProductState = createFeatureSelector<ProductState>('products');
@@ -28,38 +29,37 @@ export const selectError = createSelector(
   selectProductState,
   (state: ProductState) => state.error
 );
+
 export const selectFeaturedProducts = createSelector(
   selectProductState,
   (state: ProductState) =>  state.products.filter((product: Product) => product.featured)
 );
 
-// Selector to get filtered products by search term, category, color, discount percent, and price
-export const selectFilteredProducts = (
-  searchTerm: string,
-  category: string,
-  color: string,
-  discountPercent: number | null,
-  maxPrice: number | null
-) => createSelector(
-  selectAllProducts,
-  (products: Product[]) => {
-    return products.filter((product: Product) => {
-      const matchesSearchTerm = product.title.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesCategory = category ? product.topLevelCategory === category : true;
-      const matchesColor = color ? product.color.toLowerCase().includes(color.toLowerCase()) : true;
-      const matchesDiscount = discountPercent !== null ? product.discountPercent >= discountPercent : true;
-      const matchesPrice = maxPrice !== null ? product.price <= maxPrice : true;
+export const selectSearchFilteredProducts = createSelector(
+  selectProductState,
+  (state: ProductState) =>  state.filteredProducts
+);
 
-      return matchesSearchTerm && matchesCategory && matchesColor && matchesDiscount && matchesPrice;
+export const selectFilterCriteria = createSelector(
+  selectProductState,
+  (state: ProductState) =>  state.filterCriteria
+);
+
+// Selector to get filtered products by search term, category, color, discount percent, and price
+export const selectFilteredProducts = () => createSelector(
+  selectProductState,
+  selectSearchFilteredProducts,
+  (state: ProductState,products: Product[]) => {
+    return products.filter((product: Product) => {
+      const matchesCategory = state.filterCriteria && state.filterCriteria.category ? product.topLevelCategory === state.filterCriteria.category : true;
+      const matchesColor = state.filterCriteria && state.filterCriteria.color ? product.color.toLowerCase().includes(state.filterCriteria.color.toLowerCase()) : true;
+      const matchesDiscount = state.filterCriteria && state.filterCriteria.discountPercent !== null ? product.discountPercent >= state.filterCriteria.discountPercent : true;
+      const matchesPrice = state.filterCriteria && state.filterCriteria.maxPrice !== null ? product.price <= state.filterCriteria.maxPrice : true;
+
+      return matchesCategory && matchesColor && matchesDiscount && matchesPrice;
     });
   }
 );
-
-// export const selectFeaturedProducts = () => createSelector(
-//   selectAllProducts,
-//   (products: Product[]) => { return products.filter((product: Product) => product.featured)}
-// );
-
 
 // Selector to get a product by ID
 export const selectProductById = (productId: number) => createSelector(

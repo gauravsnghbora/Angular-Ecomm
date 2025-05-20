@@ -4,7 +4,7 @@
     
     <mat-form-field appearance="fill">
       <mat-label>Search products</mat-label>
-      <input matInput [(ngModel)]="searchTerm" (input)="onSearch()" placeholder="Search products by title">
+      <input matInput [(ngModel)]="searchText" (input)="updateFilteredList()" placeholder="Search products by title">
     </mat-form-field>
   
     <mat-form-field appearance="fill">

@@ -1,5 +1,6 @@
 import { createAction, props } from '@ngrx/store';
 import { Product } from '../../models/product.model';
+import { FilterCriteria } from '../../models/filter-criteria.model';
 
 export const loadProducts = createAction('[Product List] Load Products');
 export const loadProductsSuccess = createAction(
@@ -19,4 +20,14 @@ export const addToCart = createAction(
 export const removeFromCart = createAction(
   '[Cart] Remove Product',
   props<{ productId: number }>()
+);
+
+export const updateFilterCriteria = createAction(
+  '[Product List] Update Filter Criteria',
+  props<{ filterCriteria: FilterCriteria }>()
+);
+
+export const updateFilteredProducts = createAction(
+  '[Product List] Update Filtered Products',
+  props<{ searchText: string }>()
 );

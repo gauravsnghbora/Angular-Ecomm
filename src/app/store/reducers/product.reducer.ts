@@ -1,6 +1,7 @@
 import { createReducer, on } from '@ngrx/store';
 import { Product } from '../../models/product.model';
 import * as ProductActions from '../actions/product.actions';
+import { FilterCriteria } from '../../models/filter-criteria.model';
 
 // Define the state structure
 export interface ProductState {
@@ -8,6 +9,8 @@ export interface ProductState {
   loading: boolean;
   error: string | null;
   cart: Product[]; // This will hold the products added to the cart
+  filterCriteria: FilterCriteria | null; // Add filterCriteria field
+  filteredProducts: Product[]; // This will hold the filtered products
 }
 
 // Initial state
@@ -16,6 +19,8 @@ export const initialState: ProductState = {
   loading: false,
   error: null,
   cart: [],
+  filterCriteria: null, // Initialize filterCriteria
+  filteredProducts: [], // Initialize filteredProducts
 };
 
 // Create the reducer
@@ -53,5 +58,16 @@ export const productReducer = createReducer(
   on(ProductActions.removeFromCart, (state, { productId }) => {
     const cartProducts = state.cart.filter(product => product.id !== productId); // Filter out the product to remove
     return { ...state, cart: cartProducts };
-  })
+  }),
+
+  on(ProductActions.updateFilterCriteria, (state, { filterCriteria }) => {
+    return { ...state, filterCriteria: filterCriteria }; ;
+  }),
+
+  
+  on(ProductActions.updateFilteredProducts, (state, { searchText }) => {
+    const filteredProducts = state.products.filter((product: Product) => product.title.toLowerCase().includes(searchText.toLowerCase()));
+  
+    return { ...state, filteredProducts: filteredProducts }; ;
+  }),
 );

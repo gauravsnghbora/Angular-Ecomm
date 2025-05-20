@@ -24,8 +24,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": true
   },
@@ -54,8 +54,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": false
   },
@@ -84,8 +84,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": true
   },
@@ -114,8 +114,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": false
   },
@@ -144,8 +144,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": true
   },
@@ -174,8 +174,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": false
   },
@@ -204,8 +204,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": true
   },
@@ -234,8 +234,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": false
   },
@@ -264,8 +264,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": true
   },
@@ -294,8 +294,8 @@
         ],
         "quantity": 100,
         "topLevelCategory": "Men",
-        "secondLavelCategory": "Clothing",
-        "thirdLavelCategory": "men_jeans",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "men_jeans",
         "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
         "featured": false
   },
@@ -323,9 +323,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "shirt",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "shirt",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -353,9 +353,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "shirt",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "shirt",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -383,9 +383,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "shirt",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "shirt",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -413,9 +413,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "shirt",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "shirt",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -443,9 +443,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "shirt",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "shirt",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -472,9 +472,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "Pant",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "Pant",
       "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
       "discountPercent": 63,
       "featured": false
@@ -502,9 +502,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "Pant",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "Pant",
       "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
       "discountPercent":49,
       "featured": true
@@ -532,9 +532,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "Pant",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "Pant",
       "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
       "discountPercent": 70,
       "featured": false
@@ -562,9 +562,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "Pant",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "Pant",
       "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
       "discountPercent": 64,
       "featured": true
@@ -592,9 +592,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "Pant",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "Pant",
       "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
       "discountPercent": 55,
       "featured": false
@@ -622,9 +622,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Men",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "Pant",
+      "topLevelCategory": "Men",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "Pant",
       "description":"Discover stylish men's pants that exude both comfort and fashion-forward design. These meticulously crafted pants are perfect for any occasion, providing a perfect blend of style and versatility.",
       "discountPercent": 70,
       "featured": true
@@ -653,9 +653,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "top",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "top",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -683,9 +683,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "top",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "top",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -713,9 +713,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "top",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "top",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -743,9 +743,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "top",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "top",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -773,9 +773,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "top",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "top",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -803,9 +803,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_jeans",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_jeans",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -833,9 +833,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_jeans",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_jeans",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -863,9 +863,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_jeans",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_jeans",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -893,9 +893,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_jeans",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_jeans",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -923,9 +923,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_jeans",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_jeans",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -953,9 +953,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_jeans",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_jeans",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -983,9 +983,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_jeans",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_jeans",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -1013,9 +1013,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_dress",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_dress",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -1043,9 +1043,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_dress",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_dress",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -1073,9 +1073,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_dress",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_dress",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -1103,9 +1103,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_dress",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_dress",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -1133,9 +1133,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_dress",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_dress",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -1163,9 +1163,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_dress",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_dress",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": true
   },
@@ -1193,9 +1193,9 @@
         }
       ],
       "quantity": 100,
-      "topLavelCategory": "Women",
-      "secondLavelCategory": "Clothing",
-      "thirdLavelCategory": "women_dress",
+      "topLevelCategory": "Women",
+      "secondLevelCategory": "Clothing",
+      "thirdLevelCategory": "women_dress",
       "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style.",
       "featured": false
   },
@@ -1225,8 +1225,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": true
@@ -1257,8 +1257,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": false
@@ -1289,8 +1289,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": true
@@ -1321,8 +1321,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": false
@@ -1354,8 +1354,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": true
@@ -1386,8 +1386,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": false
@@ -1418,8 +1418,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": true
@@ -1450,8 +1450,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": false
@@ -1482,8 +1482,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": true
@@ -1514,8 +1514,8 @@
     ],
     "quantity": 100,
     "topLevelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
+    "secondLevelCategory": "Clothing",
+    "thirdLevelCategory": "Dress",
     "description":
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion.",
     "featured": false
