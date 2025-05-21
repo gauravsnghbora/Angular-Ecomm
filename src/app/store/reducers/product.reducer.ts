@@ -9,7 +9,7 @@ export interface ProductState {
   loading: boolean;
   error: string | null;
   cart: Product[]; // This will hold the products added to the cart
-  filterCriteria: FilterCriteria | null; // Add filterCriteria field
+  filterCriteria: FilterCriteria; // Add filterCriteria field
   filteredProducts: Product[]; // This will hold the filtered products
 }
 
@@ -19,7 +19,12 @@ export const initialState: ProductState = {
   loading: false,
   error: null,
   cart: [],
-  filterCriteria: null, // Initialize filterCriteria
+  filterCriteria: {
+    category: '',
+    color: '',
+    discountPercent: null,
+    maxPrice: null
+  }, // Initialize filterCriteria
   filteredProducts: [], // Initialize filteredProducts
 };
 
@@ -64,7 +69,14 @@ export const productReducer = createReducer(
     return { ...state, filterCriteria: filterCriteria }; ;
   }),
 
-  
+  on(ProductActions.resetFilters, (state) => {
+    return { ...state, filterCriteria: {
+    category: '',
+    color: '',
+    discountPercent: null,
+    maxPrice: null
+  } }; ;
+  }),  
   on(ProductActions.updateFilteredProducts, (state, { searchText }) => {
     const filteredProducts = state.products.filter((product: Product) => product.title.toLowerCase().includes(searchText.toLowerCase()));
   

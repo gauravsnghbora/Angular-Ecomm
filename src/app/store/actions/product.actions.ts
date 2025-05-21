@@ -23,11 +23,15 @@ export const removeFromCart = createAction(
 );
 
 export const updateFilterCriteria = createAction(
-  '[Product List] Update Filter Criteria',
+  '[Filter] Update Filter Criteria',
   props<{ filterCriteria: FilterCriteria }>()
 );
 
 export const updateFilteredProducts = createAction(
   '[Product List] Update Filtered Products',
   props<{ searchText: string }>()
+);
+
+export const resetFilters = createAction(
+  '[Filter] Reset Filter criteria'
 );

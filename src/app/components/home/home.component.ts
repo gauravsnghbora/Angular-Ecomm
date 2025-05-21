@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { Observable, of } from 'rxjs';
-import { loadProducts, addToCart, updateFilterCriteria, updateFilteredProducts } from '../../store/actions/product.actions';
+import { Observable } from 'rxjs';
+import { loadProducts, addToCart, updateFilterCriteria } from '../../store/actions/product.actions';
 import { Product } from '../../models/product.model';
-import { selectFeaturedProducts, selectFilteredProducts } from '../../store/selectors/product.selectors';
+import { selectFeaturedProducts, selectFilterCriteria, selectFilteredProducts } from '../../store/selectors/product.selectors';
 import { MatSelectChange } from '@angular/material/select';
 import { Router } from '@angular/router';
 import { FilterCriteria } from 'src/app/models/filter-criteria.model';
@@ -16,9 +16,11 @@ import { FilterCriteria } from 'src/app/models/filter-criteria.model';
 export class HomeComponent implements OnInit {
   products$!: Observable<Product[]>; 
   products: Product[] = [];
-  searchText: string = '';
-  selectedCategory: string = '';
-  selectedColor: string = '';
+  // filterCriteria!: FilterCriteria; 
+
+
+  category: string = '';
+  color: string = '';
   discountPercent: number | null = null;
   maxPrice: number | null = null;
 
@@ -26,14 +28,20 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.store.dispatch(loadProducts());
-    this.products$ = this.store.select(selectFeaturedProducts);
-    this.products$.subscribe((results: Product[])=> this.products = results);
+    this.products$ = this.store.select(selectFilteredProducts());
+    this.store.select(selectFilterCriteria).subscribe((filterCriteria: FilterCriteria) => {
+      this.category = filterCriteria.category;
+      this.color = filterCriteria.color;
+      this.discountPercent = filterCriteria.discountPercent;
+      this.maxPrice = filterCriteria.maxPrice;}
+      );
+    // this.products$.subscribe((results: Product[])=> this.products = results);
   }
 
   onSearch() {
     const filterCriteria: FilterCriteria = {
-      category: this.selectedCategory,
-      color: this.selectedColor,
+      category: this.category,
+      color: this.color,
       discountPercent: this.discountPercent,
       maxPrice: this.maxPrice
     };
@@ -44,15 +52,10 @@ export class HomeComponent implements OnInit {
     );
   }
 
-  updateFilteredList() {
-    this.store.dispatch(updateFilteredProducts({searchText: this.searchText}));
-    this.products$ = this.store.select(selectFilteredProducts());
-  }
-
-  onCategoryChange(event: MatSelectChange) {
-    this.selectedCategory = event.value;
-    this.onSearch();
-  }
+  // onCategoryChange(event: MatSelectChange) {
+  //   this.filterCriteria.category = event.value;
+  //   this.onSearch();
+  // }
 
   addToCart(product: Product) {
     this.store.dispatch(addToCart({ product }));

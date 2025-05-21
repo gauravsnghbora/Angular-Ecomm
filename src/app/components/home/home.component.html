@@ -3,13 +3,8 @@
     <h1>Welcome to Our Retail Store</h1>
     
     <mat-form-field appearance="fill">
-      <mat-label>Search products</mat-label>
-      <input matInput [(ngModel)]="searchText" (input)="updateFilteredList()" placeholder="Search products by title">
-    </mat-form-field>
-  
-    <mat-form-field appearance="fill">
       <mat-label>Category</mat-label>
-      <mat-select [(ngModel)]="selectedCategory" (selectionChange)="onSearch()">
+      <mat-select [(ngModel)]="category" (selectionChange)="onSearch()">
         <mat-option value="">All Categories</mat-option>
         <mat-option value="Men">Men</mat-option>
         <mat-option value="Women">Women</mat-option>
@@ -18,7 +13,7 @@
   
     <mat-form-field appearance="fill">
       <mat-label>Color</mat-label>
-      <mat-select [(ngModel)]="selectedColor" (selectionChange)="onSearch()">
+      <mat-select [(ngModel)]="color" (selectionChange)="onSearch()">
         <mat-option value="">Filter by color</mat-option>
         <mat-option value="Black">Black</mat-option>
         <mat-option value="Blue">Blue</mat-option>

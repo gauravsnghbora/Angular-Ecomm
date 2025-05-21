@@ -37,7 +37,7 @@ export const selectFeaturedProducts = createSelector(
 
 export const selectSearchFilteredProducts = createSelector(
   selectProductState,
-  (state: ProductState) =>  state.filteredProducts
+  (state: ProductState) =>  state.filteredProducts && state.filteredProducts.length >0 ? state.filteredProducts : state.products.filter((product: Product) => product.featured)
 );
 
 export const selectFilterCriteria = createSelector(
@@ -49,7 +49,14 @@ export const selectFilterCriteria = createSelector(
 export const selectFilteredProducts = () => createSelector(
   selectProductState,
   selectSearchFilteredProducts,
-  (state: ProductState,products: Product[]) => {
+  (state: ProductState, products: Product[]) => {
+    if (!state.filterCriteria || 
+      (!state.filterCriteria.category && 
+       !state.filterCriteria.color && 
+       (state.filterCriteria.discountPercent === null || state.filterCriteria.discountPercent === undefined) && 
+       (state.filterCriteria.maxPrice === null || state.filterCriteria.maxPrice === undefined))) {
+      return products; // Return all products if all filter criteria fields are empty
+    }
     return products.filter((product: Product) => {
       const matchesCategory = state.filterCriteria && state.filterCriteria.category ? product.topLevelCategory === state.filterCriteria.category : true;
       const matchesColor = state.filterCriteria && state.filterCriteria.color ? product.color.toLowerCase().includes(state.filterCriteria.color.toLowerCase()) : true;

@@ -1,6 +1,6 @@
 <div class="header fixed-header">
   <div class="site-icon">
-    <button (click)="navigateTo('/')">
+    <button (click)="reset()">
       <img src="favicon.ico" alt="Site Icon" class="favicon" />
     </button>
   </div>
@@ -8,7 +8,12 @@
     <button (click)="navigateTo('/men')">Men</button>
     <button (click)="navigateTo('/women')">Women</button>
   </nav>
+  
   <nav class="nav-right">
+    <mat-form-field appearance="fill">
+      <mat-label>Search products</mat-label>
+      <input matInput [(ngModel)]="searchText" (input)="onSearch()" placeholder="Search products by title">
+    </mat-form-field>
     <button (click)="navigateTo('/cart')">Cart</button>
   </nav>
 </div>
