@@ -52,11 +52,6 @@ export class HomeComponent implements OnInit {
     );
   }
 
-  // onCategoryChange(event: MatSelectChange) {
-  //   this.filterCriteria.category = event.value;
-  //   this.onSearch();
-  // }
-
   addToCart(product: Product) {
     this.store.dispatch(addToCart({ product }));
   }
